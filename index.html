@@ -42,7 +42,7 @@
                 <button class="btn btn-success" @click="aumentar" >+</button>
                 <button class="btn btn-danger" @click="disminuir(2)" >-</button>
                 <button class="btn btn-primary" @click="obtenerCursos">Obtener Cursos</button>
-                <h4>Numero {{ numero }}</h4>
+                <h4>Numero: {{ numero }}</h4>
                 <ul v-for="item of cursos">
                     <li>{{item.nombre}}</li>
                 </ul>
